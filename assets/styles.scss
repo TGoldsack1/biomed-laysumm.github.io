@@ -42,12 +42,7 @@ $monospacetype: (
 
 // Site-wide base styles.
 body {
-  @include fontsize(zeta, all);
   font-size: 1rem !important;
-  font-family: unquote(map-get($bodytype, font-family));
-  font-style: normal;
-  font-weight: map-get($bodytype, regular);
-  line-height: 2rem;
 }
 
 @import "alembic";
